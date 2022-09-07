@@ -1,0 +1,17 @@
+{
+  "name": "apply-commit-rules",
+  "version": "1.0.0",
+  "description": "Example of how to apply your commit rules on Git system ",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz --disable-emoji"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.1"
+  }
+}
